@@ -63,28 +63,28 @@ Powered By Hrach
 </a>
    <p className="yu">
     
-<a  href="https://www.facebook.com/hrachya.avetisyan.54?locale=ru_RU">
+<a className="inst" href="https://www.facebook.com/hrachya.avetisyan.54?locale=ru_RU">
 	<span></span>
 	<span></span>
 	<span></span>
 	<span></span>
-  <i class="fa fa-facebook-f"></i>
+  <i  class="fa fa-facebook-f"></i>
 </a> 
 
-  <a  href="https://www.instagram.com/__.maroz.__/">
+  <a className="inst" href="https://www.instagram.com/__.maroz.__/">
 	<span></span>
 	<span></span>
 	<span></span>
 	<span></span>
-  <i class="fa fa-instagram">  </i>
+  <i  class="fa fa-instagram">  </i>
 </a>
 
-    <a  href="https://vk.com/id635401648">
+    <a className="inst" href="https://vk.com/id635401648">
 	<span></span>
 	<span></span>
 	<span></span>
 	<span></span>
-  <i className="fa fa-vk"></i>
+  <i  className="fa fa-vk"></i>
 </a>
   </p>
   </h1>

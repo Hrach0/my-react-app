@@ -109,7 +109,7 @@ function Div1(){
     let [checkclick1,setCheckclick1] = useState("div2-d3-d1 checkclick");
     let [checkclick2,setCheckclick2] = useState("div2-d3-d1");
     let [checkclick3,setCheckclick3] = useState("div2-d3-d1");
-
+let[n,setN]=useState(1)
     let [arr2,setArr2] = useState(arr1.filter((elem)=> elem.type==="pizza"));
 
 
@@ -131,6 +131,7 @@ function Div1(){
     setCheckclick1("div2-d3-d1 checkclick");
     setCheckclick2("div2-d3-d1");
     setCheckclick3("div2-d3-d1");
+    setN(0)
 }}>
 <h1>Pizza</h1>
 </button>
@@ -139,6 +140,7 @@ function Div1(){
     setCheckclick2("div2-d3-d1 checkclick");
     setCheckclick1("div2-d3-d1");
     setCheckclick3("div2-d3-d1");
+    setN(1)
 }}>
 <h1>Salads</h1>
 </button>
@@ -148,6 +150,7 @@ function Div1(){
     setCheckclick3("div2-d3-d1 checkclick");
     setCheckclick2("div2-d3-d1");
     setCheckclick1("div2-d3-d1");
+    setN(2)
 }}>
 <h1>Starter</h1>
 </button>
